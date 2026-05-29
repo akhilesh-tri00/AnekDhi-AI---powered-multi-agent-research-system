@@ -1,11 +1,14 @@
+streamlit>=1.35.0
 # Core LLM + Langchain ecosystem
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
 langchain-openai>=0.1.0
+langchain-groq>=0.1.0
 
 # OpenAI
 openai>=1.30.0
+groq>=0.5.0
 
 #Tavily Search Tool
 tavily-python>=0.3.0
@@ -25,7 +28,7 @@ aiohttp>=3.9.0
 pandas>=2.0.0
 
 # Token counting / text utils
-tiktokens>=0.6.0
+tiktoken>=0.6.0
 
 # Logging / debugging (optional but recommended)
 rich>=13.7.0
@@ -34,7 +37,7 @@ rich>=13.7.0
 tenacity>=8.2.0
 
 # JSON handling improvements
-orjason>=3.9.0
+orjson>=3.9.0
 
 # Typing support (helps in bigger projects)
 pydantic>=2.5.0
